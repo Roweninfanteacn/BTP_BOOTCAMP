@@ -1,0 +1,12 @@
+@server = http://localhost:4004
+
+### Test LogBooks
+POST {{server}}/odata/v4/catalog/LogBooks
+Content-Type: application/json
+
+{
+    "borrowerID": "B001",
+    "bookTitle": "Harry Potter",
+    "authorName": "J.K. Rowling",
+    "readDate": "2026-11-23"
+}

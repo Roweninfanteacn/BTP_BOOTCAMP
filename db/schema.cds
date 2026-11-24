@@ -2,6 +2,7 @@ namespace BTP_BOOTCAMP;
 
 entity Books {
     key ID          : UUID;
+        borrowerID  : String(50);
         BorrowerName: String(50);
         bookTitle   : String(100);
         authorName  : String(100);

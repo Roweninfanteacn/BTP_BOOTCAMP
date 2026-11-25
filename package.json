@@ -27,6 +27,13 @@
           "options": {
             "model": ["db", "srv", "app"]
           }
+        },
+        {
+          "for": "nodejs",
+          "src": "srv",
+          "options": {
+            "model": ["db", "srv", "app"]
+          }
         }
       ]
     },
